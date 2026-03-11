@@ -550,7 +550,7 @@ PrefabInstance:
     - target: {fileID: -5283256787836253263, guid: a95a6195a5c9f094a8e6c9be8110396d, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: 6baca70dc3434ed41acb5be62febe897, type: 2}
+      objectReference: {fileID: 2100000, guid: 20d3470fa7052486b91a270703645d0d, type: 2}
     - target: {fileID: 919132149155446097, guid: a95a6195a5c9f094a8e6c9be8110396d, type: 3}
       propertyPath: m_Name
       value: WillowTree_01
@@ -895,7 +895,7 @@ PrefabInstance:
     - target: {fileID: 8987590661505648888, guid: d92f6db371c4ce14dbe68c2da100584d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7da7c3a003bf2d949bac1d4b7b1663f1, type: 2}
+      objectReference: {fileID: 2100000, guid: 20d3470fa7052486b91a270703645d0d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -1365,8 +1365,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4458335830123413902, guid: 57ce00b55610d489798e8cbccd6af3b0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2110328344}
   m_SourcePrefab: {fileID: 100100000, guid: 57ce00b55610d489798e8cbccd6af3b0, type: 3}
+--- !u!1 &2110328343 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4458335830123413902, guid: 57ce00b55610d489798e8cbccd6af3b0, type: 3}
+  m_PrefabInstance: {fileID: 2110328342}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2110328344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110328343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c8c769816ac459f82a611302ca4e1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeyPress
 --- !u!4 &2126457462 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3509415035203342225, guid: 5d223c23da531c84c83fd2b2ce070415, type: 3}
