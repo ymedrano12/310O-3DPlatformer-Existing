@@ -256,7 +256,7 @@ PrefabInstance:
     - target: {fileID: -1731017100910480671, guid: 7c3b71277926a204caf840f1bf87f424, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 547d20f3a4675194983b5d880d1fb348, type: 2}
+      objectReference: {fileID: 2100000, guid: 20d3470fa7052486b91a270703645d0d, type: 2}
     - target: {fileID: 919132149155446097, guid: 7c3b71277926a204caf840f1bf87f424, type: 3}
       propertyPath: m_Name
       value: Bush_01_01 (2)
@@ -725,7 +725,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -250, y: -150}
+  m_AnchoredPosition: {x: -250, y: -200}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &480915868
@@ -1603,7 +1603,7 @@ PrefabInstance:
     - target: {fileID: -7215205686712263696, guid: 86d81c39427b93e4a8cbca13c1e0dfb4, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 16db3acac4b71444b95fd5cca207bf73, type: 2}
+      objectReference: {fileID: 2100000, guid: 20d3470fa7052486b91a270703645d0d, type: 2}
     - target: {fileID: -6512409540763632795, guid: 86d81c39427b93e4a8cbca13c1e0dfb4, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1772,7 +1772,7 @@ PrefabInstance:
     - target: {fileID: -1731017100910480671, guid: 7c3b71277926a204caf840f1bf87f424, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 547d20f3a4675194983b5d880d1fb348, type: 2}
+      objectReference: {fileID: 2100000, guid: 20d3470fa7052486b91a270703645d0d, type: 2}
     - target: {fileID: 919132149155446097, guid: 7c3b71277926a204caf840f1bf87f424, type: 3}
       propertyPath: m_Name
       value: Bush_01_01
@@ -1968,6 +1968,73 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7594934514939699348, guid: 179fbf62286eb436a8e0c405f5732185, type: 3}
   m_PrefabInstance: {fileID: 1375692094}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1451642484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1451642487}
+  - component: {fileID: 1451642486}
+  - component: {fileID: 1451642485}
+  m_Layer: 0
+  m_Name: NextLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1451642485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451642484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c36ce3a1ff4b41a0b642d0a85b7749b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::newLevelTrigger
+  LevelToLoad: LevelThreeScene
+--- !u!65 &1451642486
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451642484}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1451642487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451642484}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.91, y: 4.95, z: 0.2394}
+  m_LocalScale: {x: 6.8, y: 4.15, z: 4.8}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1451721627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2341,7 +2408,7 @@ PrefabInstance:
     - target: {fileID: -1731017100910480671, guid: 7c3b71277926a204caf840f1bf87f424, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 547d20f3a4675194983b5d880d1fb348, type: 2}
+      objectReference: {fileID: 2100000, guid: 20d3470fa7052486b91a270703645d0d, type: 2}
     - target: {fileID: 919132149155446097, guid: 7c3b71277926a204caf840f1bf87f424, type: 3}
       propertyPath: m_Name
       value: Bush_01_01 (1)
@@ -2666,3 +2733,4 @@ SceneRoots:
   - {fileID: 292078459}
   - {fileID: 357143299}
   - {fileID: 902622736}
+  - {fileID: 1451642487}

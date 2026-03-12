@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class ScoreUI : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class ScoreUI : MonoBehaviour
         if(Score >= 3){
             Debug.Log("All houses found");
             text.text = "All houses found!";
+            SceneManager.LoadScene("LevelThreeScene");
         }
     }
 }
